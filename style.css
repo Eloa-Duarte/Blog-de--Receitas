@@ -1,7 +1,48 @@
 body {
     font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9; /* fundo claro */
+    color: black; 
+    margin: 0;
+    line-height: 1.6;
+    padding: 0;
+}
+header {
+    background-color: #00d1b2;
+    color: white;
+}
+header p{
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5em;
 }
 
+h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: black; /* tom mais escuro para variação */
+    margin-bottom: 0.5em;
+}
+
+footer p{
+    text-align: center;
+    color: #ffffff; /* tom cinza para o texto do rodapé */
+}
+p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 1em;
+    text-align: justify;
+}
 .image img {
     max-width: 100%;
     height: auto;
